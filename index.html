@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Andi Saputra | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html">home</a> |
+        <a href="cv-andi.pdf">download CV</a> |
+        <a href="contact.html">contact</a> |
+        <a href="about.html">about me</a> 
+    </nav>
+
+    <header class="hero-section">
+        <div class="profile-container">
+            <div class="avatar-glow">
+                <img src="image/foto-profile.jpg" alt="Profile">
+            </div>
+        </div>
+        
+        <h1 class="hero-title">Yusuf Andi Saputra</h1>
+        <p id="typing-text" class="hero-subtitle"></p>
+    </header>
+
+    <main class="content-wrapper">
+        <article class="glass-card">
+            <h2>Overview</h2>
+            <p>
+                Halo, saya adalah seorang <span class="highlight">Programmer</span> yang berdomisili di Sidowarek. 
+                Saat ini saya sedang mendalami pengembangan website menggunakan teknologi modern.
+            </p>
+        </article>
+
+        <article class="glass-card table-card">
+            <h2>Skills & Experience</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Pengalaman</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>LUA (Expert)</li>
+                                    <li>GDScript (beginer)</li>
+                                    <li>HTML (Beginner)</li>
+                                    <li>CSS (Beginner)</li>
+                                    <li>JavaScript (Beginner)</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>membuat game kecil</li>
+                                    <li>membuat website </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </main>
+    <div class="aura-settings-container">
+    <button id="gearBtn" class="gear-icon">
+        <i class="fas fa-cog"></i> <span>⚙️</span> 
+    </button>
+    
+    <div id="auraPanel" class="aura-controller hidden">
+        <div class="panel-header">
+            <h3>Aura Control</h3>
+        </div>
+        
+        <div class="control-item">
+            <label>Warna Aura</label>
+            <input type="range" id="hueRange" min="0" max="360" value="188">
+        </div>
+        
+        <div class="control-item">
+            <label>Kecerahan</label>
+            <input type="range" id="lightRange" min="20" max="80" value="53">
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>Copyright &copy; 2026 Yusuf Andi Saputra</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

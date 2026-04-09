@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Yusuf Andi Saputra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+    
+    <nav>
+        <a href="index.html">home</a> |
+        <a href="cv-andi.pdf">download CV</a> |
+        <a href="contact.html">contact</a> |
+        <a href="about.html">about me</a>
+    </nav>
+
+    <main class="content-wrapper">
+        <article class="glass-card aura-form-container">
+            <div class="form-header">
+                <h2>Send Me a Message</h2>
+                <p>Ada project atau mau tanya-tanya? Gas, ketik di bawah!</p>
+            </div>
+            
+            <form id="contactForm" class="supreme-form">
+                <div class="field-box">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label>YOUR EMAIL</label>
+                    <div class="line"></div>
+                </div>
+
+                <div class="field-box">
+                    <textarea id="message" rows="5" required placeholder=" "></textarea>
+                    <label>SECRET MESSAGE</label>
+                    <div class="line"></div>
+                </div>
+
+                <button type="submit" class="btn-supreme">
+                    <span>TRANSMIT MESSAGE</span>
+                </button>
+            </form>
+        </article>
+    </main>
+        <div class="aura-settings-container">
+    <button id="gearBtn" class="gear-icon">
+        <i class="fas fa-cog"></i> <span>⚙️</span> 
+    </button>
+    
+    <div id="auraPanel" class="aura-controller hidden">
+        <div class="panel-header">
+            <h3>Aura Control</h3>
+        </div>
+        
+        <div class="control-item">
+            <label>Warna Aura</label>
+            <input type="range" id="hueRange" min="0" max="360" value="188">
+        </div>
+        
+        <div class="control-item">
+            <label>Kecerahan</label>
+            <input type="range" id="lightRange" min="20" max="80" value="53">
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>Copyright &copy; 2026 Yusuf Andi Saputra</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
